@@ -461,6 +461,6 @@ def decode_qrcode(image_path, widget):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = QRCodeGeneratorDecoder()
-    ex.setWindowIcon(QIcon(resource_path(r'/path/icon.ico')))  # Replace 'app_icon.png' with your icon file 
+    ex.setWindowIcon(QIcon(resource_path(r'/path/icon.ico')))  # Replace 'app_icon.ico' with your icon file 
     ex.show()
     sys.exit(app.exec_())
